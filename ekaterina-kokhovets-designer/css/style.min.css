@@ -4039,6 +4039,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding-bottom: 58px;
 }
 
+.page-banner-portfolio {
+  background-image: url("../img/banner-portfolio.jpg");
+}
+
+.page-inner .objects__column {
+  padding-bottom: 7px;
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
