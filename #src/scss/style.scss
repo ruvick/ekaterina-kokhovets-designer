@@ -423,6 +423,108 @@ h6 {
 	margin: 0px auto;
 }
 
+//========================================================================================================================================================
+
+.banner {
+	position: relative;
+	padding: 121px 25px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../img/banner-01.jpg');
+}
+
+.banner__title {
+	position: relative;
+	z-index: 5;
+	font-size: 98.32px;
+	font-weight: 300;
+	line-height: 117.98 / 98.32 *100%;
+	color: #fff;
+
+	span {
+		font-size: 70px;
+		line-height: 84 / 70 *100%;
+		color: #fff;
+		margin-top: -15px;
+		display: block;
+	}
+
+}
+
+//========================================================================================================================================================
+
+.services {}
+
+.services__title {}
+
+.services__wrap {
+	padding: 45px 0;
+	background: #EDEEEF;
+}
+
+.services__inner {
+	display: flex;
+	margin: 0 -18px;
+}
+
+.services__column {
+	display: flex;
+	flex: 0 1 33.333%;
+	padding: 0 18px;
+}
+
+.services__card {
+	display: flex;
+	align-items: center;
+	flex: 0 1 100%;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.services__card-descp {
+	padding: 0 35px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+.services__card-descp-name {}
+
+.services__card-descp-name-line {
+	display: block;
+	width: 70px;
+	height: 1px;
+	margin: 17px auto 17px auto;
+	background: #B58439;
+}
+
+.services__card-descp-text {
+	line-height: 16.8px;
+}
+
+.services__card-slider {
+	position: relative;
+	flex: 0 1 449px;
+	max-width: 449px;
+	width: 100%;
+	max-height: 238px;
+	overflow: hidden;
+}
+
+.services__card-slider-slide {}
+
+.services__card-btn {
+	margin-top: 33px;
+}
+
+.servicesSl-swiper-paggination {
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
