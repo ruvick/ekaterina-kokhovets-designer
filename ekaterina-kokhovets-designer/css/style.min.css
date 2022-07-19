@@ -4047,6 +4047,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding-bottom: 7px;
 }
 
+.page-banner-service {
+  background-image: url("../img/banner-service.jpg");
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
