@@ -3912,6 +3912,50 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-top: 33px;
 }
 
+.blog__inner {
+  display: flex;
+  margin: 0 -26px;
+}
+
+.blog__column {
+  display: flex;
+  flex: 0 1 24.5%;
+  padding: 0 13px;
+}
+
+.blog__card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 100%;
+  padding-bottom: 38px;
+  background: #EDEEEF;
+  overflow: hidden;
+}
+
+.blog__card-img {
+  min-height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.blog__card-descp {
+  flex: 1 1 auto;
+  padding: 23px 15px 30px 26px;
+}
+
+.blog__card-descp-line {
+  margin: 20px 0;
+}
+
+.blog__card-descp-text {
+  line-height: 16.8px;
+}
+
+.blog__card-btn {
+  align-self: start;
+  margin: 0 15px 0 26px;
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
