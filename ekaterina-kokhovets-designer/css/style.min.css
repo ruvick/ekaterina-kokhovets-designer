@@ -4019,7 +4019,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex-wrap: wrap;
 }
 
-.services__page-inner .services__column {
+.page-inner .services__column {
   padding-bottom: 58px;
 }
 
@@ -4029,6 +4029,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .page-inner .blog__column {
   padding-bottom: 23px;
+}
+
+.page-banner-team {
+  background-image: url("../img/banner-team.jpg");
+}
+
+.page-inner .team__column {
+  padding-bottom: 58px;
 }
 
 @media (max-width: 1200px) {

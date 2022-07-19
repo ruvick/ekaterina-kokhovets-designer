@@ -800,7 +800,7 @@ h6 {
 	flex-wrap: wrap;
 }
 
-.services__page-inner .services__column {
+.page-inner .services__column {
 	padding-bottom: 58px;
 }
 
@@ -810,6 +810,14 @@ h6 {
 
 .page-inner .blog__column {
 	padding-bottom: 23px;
+}
+
+.page-banner-team {
+	background-image: url('../img/banner-team.jpg');
+}
+
+.page-inner .team__column {
+	padding-bottom: 58px;
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
