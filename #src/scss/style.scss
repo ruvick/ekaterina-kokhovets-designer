@@ -796,12 +796,20 @@ h6 {
 	padding: 75px 0;
 }
 
-.services__page-inner {
+.page-inner {
 	flex-wrap: wrap;
 }
 
 .services__page-inner .services__column {
 	padding-bottom: 58px;
+}
+
+.page-banner-blog {
+	background-image: url('../img/banner-blog.jpg');
+}
+
+.page-inner .blog__column {
+	padding-bottom: 23px;
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
