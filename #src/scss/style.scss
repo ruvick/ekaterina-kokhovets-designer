@@ -675,6 +675,45 @@ h6 {
 	text-align: center;
 }
 
+//========================================================================================================================================================
+
+.consultation {
+	background-size: cover;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url('../img/consultation-form.jpg');
+}
+
+.consultation__form {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 85px;
+}
+
+.consultation__form-column {
+	flex: 0 1 43.5%;
+}
+
+.consultation__form-input {}
+
+.consultation__form-checkbox {
+	display: block;
+	margin-top: 26px;
+}
+
+.checkbox {}
+
+.checkbox__input {}
+
+.consultation__form-checkbox .checkbox__text {
+	font-size: 14px;
+	color: #1A1818;
+}
+
+.consultation__form-btn {
+	margin-top: 33px;
+}
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
