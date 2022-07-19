@@ -113,6 +113,7 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
+	font-family: 'Lato', sans-serif;
 	font-size: 98.32px;
 	font-weight: 300;
 	line-height: 117.98 / 98.32 *100%;
@@ -120,6 +121,9 @@ h1 {
 	span {
 		font-size: 70px;
 		line-height: 84 / 70 *100%;
+		color: #fff;
+		margin-top: -30px;
+		display: block;
 	}
 }
 
@@ -242,13 +246,71 @@ h4 {
 
 //===================================================================================================================================
 
-.slider-main {
+.slider-bg-wrap {
 	position: relative;
-	height: 828px;
-	background-position: 0 0;
-	background-size: cover;
-	background-repeat: no-repeat;
+}
+
+.slider-bg {
+	background: grey;
+
+	&__container {
+		flex-direction: column;
+		position: relative;
+		z-index: 50;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
+	&__slide {
+		position: relative;
+		width: 100%;
+		height: 828px;
+		padding: 160px 0 130px 0;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		background-position: center !important;
+		// filter: blur(3px);
+	}
+
+	&__title {
+		margin-bottom: 53px;
+	}
+}
+
+.swiper-button-block {
+	display: flex;
+	justify-content: space-between;
+	width: 130px;
+}
+
+.slider-bg__swiper-button-block {
+	display: block;
+	position: absolute;
+	right: 18%;
+	bottom: 14%;
+}
+
+.slider-bg__swiper-button-block ._container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.slider-main__slide-1 {
 	background-image: url('../img/main-bg.jpg');
+}
+
+.slider-main__slide-2 {
+	background: url('../img/sl-main-02.jpg');
+}
+
+.product-sl-paggination {
+	position: absolute;
+	left: 50%;
+	bottom: 2%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================

@@ -191,6 +191,7 @@ body._lock {
 }
 
 h1 {
+  font-family: "Lato", sans-serif;
   font-size: 98.32px;
   font-weight: 300;
   line-height: 119.9959316517%;
@@ -198,6 +199,9 @@ h1 {
 h1 span {
   font-size: 70px;
   line-height: 120%;
+  color: #fff;
+  margin-top: -30px;
+  display: block;
 }
 
 h2 {
@@ -268,7 +272,7 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px 25px;
+  padding: 7.5px 28.5px;
   font-size: 22px;
   font-family: "Lato", sans-serif;
   color: #fff;
@@ -1030,27 +1034,25 @@ body.ie ._ibg img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 31px;
 }
 
 .swiper-pagination-bullet {
-  flex: 0 0 10px;
-  height: 10px;
-  background: #660B1D;
+  flex: 0 0 11.37px;
+  width: 11.37em;
+  height: 11.37px;
+  background: #FFFFFF;
   border-radius: 50%;
-  opacity: 0.6;
+  border: 0.88px solid #cc870b;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 .swiper-pagination-bullet:last-child {
   margin: 0px 0px 0px 0px;
 }
 
 .swiper-pagination-bullet-active {
-  flex: 0 0 15px;
-  height: 15px;
-  background: #660B1D;
-  opacity: 1;
+  background: #cc870b;
+  border: 0.88px solid #fff;
 }
 
 ._tabs-item {
@@ -3482,13 +3484,67 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   flex: 1 1 auto;
 }
 
-.slider-main {
+.slider-bg-wrap {
   position: relative;
+}
+
+.slider-bg {
+  background: grey;
+}
+.slider-bg__container {
+  flex-direction: column;
+  position: relative;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.slider-bg__slide {
+  position: relative;
+  width: 100%;
   height: 828px;
-  background-position: 0 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 160px 0 130px 0;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.slider-bg__title {
+  margin-bottom: 53px;
+}
+
+.swiper-button-block {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.slider-bg__swiper-button-block {
+  display: block;
+  position: absolute;
+  right: 18%;
+  bottom: 14%;
+}
+
+.slider-bg__swiper-button-block ._container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-main__slide-1 {
   background-image: url("../img/main-bg.jpg");
+}
+
+.slider-main__slide-2 {
+  background: url("../img/sl-main-02.jpg");
+}
+
+.product-sl-paggination {
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1200px) {

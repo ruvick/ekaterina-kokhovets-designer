@@ -408,17 +408,18 @@ body.ie {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 31px;
 }
 
 .swiper-pagination-bullet {
-	flex: 0 0 10px;
-	height: 10px;
-	background: #660B1D;
+	flex: 0 0 11.37px;
+	width: 11.37em;
+	height: 11.37px;
+	background: #FFFFFF;
 	border-radius: 50%;
-	opacity: 0.6;
+	border: 0.88px solid #cc870b;
+	// opacity: 0.6;
 	cursor: pointer;
-	margin-right: 20px;
+	margin-right: 25px;
 
 	&:last-child {
 		margin: 0px 0px 0px 0px;
@@ -426,10 +427,9 @@ body.ie {
 }
 
 .swiper-pagination-bullet-active {
-	flex: 0 0 15px;
-	height: 15px;
-	background: #660B1D;
-	opacity: 1;
+	background: #cc870b;
+	border: 0.88px solid #fff;
+	// opacity: 1;
 }
 
 //====================================================================================================
