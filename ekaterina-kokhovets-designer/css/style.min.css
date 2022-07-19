@@ -4051,6 +4051,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-image: url("../img/banner-service.jpg");
 }
 
+.page-banner-house {
+  background-image: url("../img/banner-house.jpg");
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
