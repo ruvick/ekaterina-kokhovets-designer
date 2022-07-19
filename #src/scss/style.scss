@@ -762,6 +762,48 @@ h6 {
 	margin: 0 15px 0 26px;
 }
 
+//========================================================================================================================================================
+
+.page-banner {
+	position: relative;
+	height: 500px;
+	padding: 97px 25px;
+	background: grey;
+	background-repeat: no-repeat !important;
+	background-position: 0 0 !important;
+	background-size: cover !important;
+}
+
+.page-banner__container {
+	flex-direction: column;
+	position: relative;
+	z-index: 50;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.page-banner__title {
+	margin: 0;
+}
+
+.page-banner-services {
+	background-image: url('../img/banner-services.jpg');
+}
+
+.page-section {
+	padding: 75px 0;
+}
+
+.services__page-inner {
+	flex-wrap: wrap;
+}
+
+.services__page-inner .services__column {
+	padding-bottom: 58px;
+}
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
