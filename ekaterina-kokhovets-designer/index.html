@@ -31,14 +31,14 @@
 			</a>
 
 			<ul class="menu-list header__menu-list d-flex">
-				<li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>
+				<li class="menu-list__item"><a href="index.html" class="menu-list__link">Главная</a></li>
 				<li class="menu-list__item"><a href="page-portfolio.html" class="menu-list__link">Портфолио</a></li>
 				<li class="menu-list__item"><a href="page-services.html" class="menu-list__link">Услуги</a></li>
 				<li class="menu-list__item"><a href="#" class="menu-list__link">Отзывы</a></li>
 				<li class="menu-list__item"><a href="page-team.html" class="menu-list__link">Команда</a></li>
 				<li class="menu-list__item"><a href="page-blog.html" class="menu-list__link">Блог</a></li>
 				<li class="menu-list__item"><a href="#" class="menu-list__link">Картины</a></li>
-				<li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>
+				<li class="menu-list__item"><a href="#footer" class="menu-list__link">Контакты</a></li>
 			</ul>
 			<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',
 						'container_class' => 'menu__list','container' => false )); ?>  -->
@@ -71,11 +71,14 @@
 <!-- Мобильное меню -->
 <div class="mob-menu header__mob-menu">
 	<ul class="mob-menu__list">
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Пункт 1</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Пункт 2</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Пункт 3</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Пункт 4</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Пункт 5</a></li>
+		<li class="mob-menu__item"><a href="index.html" class="mob-menu__link">Главная</a></li>
+		<li class="mob-menu__item"><a href="page-portfolio.html" class="mob-menu__link">Портфолио</a></li>
+		<li class="mob-menu__item"><a href="page-services.html" class="mob-menu__link">Услуги</a></li>
+		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Отзывы</a></li>
+		<li class="mob-menu__item"><a href="page-team.html" class="mob-menu__link">Команда</a></li>
+		<li class="mob-menu__item"><a href="page-blog.html" class="mob-menu__link">Блог</a></li>
+		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Картины</a></li>
+		<li class="mob-menu__item"><a href="#footer" class="mob-menu__link">Контакты</a></li>
 	</ul>
 	<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
 		'container_class' => 'mob-menu__list','container' => false )); ?>  -->
@@ -592,117 +595,114 @@
 					</div>
 
 				</div>
+			</section>
 
-	</div>
-	</section>
-
-	<section id="consultation" class="consultation section">
-		<div class="_container">
-			<h2 class="consultation__title title">
-				Консультация дизайнера <br>
-				<span>У Вас остались вопросы? Мы поможем!</span>
-			</h2>
-			<form action="#" class="consultation__form">
-				<div class="consultation__form-column">
-					<input type="text" name="" placeholder="Введите Ваш телефон*" class="consultation__form-input input">
-				</div>
-				<div class="consultation__form-column">
-					<input type="text" name="" placeholder="Сообщение" class="consultation__form-input input">
-					<label for="check" class="consultation__form-checkbox checkbox">
-						<input id="check" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
-						<span class="checkbox__text"><span> Я согласен на обработку персональных данных</span></span>
-					</label>
-					<button type="submit" class="consultation__form-btn btn">Получить консультацию</button>
-				</div>
-			</form>
-		</div>
-		</div>
-	</section>
-
-	<section id="blog" class="blog section">
-		<div class="_container">
-			<h2 class="blog__title title">
-				Полезные материалы <br>
-				<span>БЛОГ</span>
-			</h2>
-
-			<div class="blog__inner">
-
-				<div class="blog__column">
-					<div class="blog__card">
-						<div class="blog__card-img">
-							<img src="img/blog/01.jpg" alt="">
+			<section id="consultation" class="consultation section">
+				<div class="_container">
+					<h2 class="consultation__title title">
+						Консультация дизайнера <br>
+						<span>У Вас остались вопросы? Мы поможем!</span>
+					</h2>
+					<form action="#" class="consultation__form">
+						<div class="consultation__form-column">
+							<input type="text" name="" placeholder="Введите Ваш телефон*" class="consultation__form-input input">
 						</div>
-						<div class="blog__card-descp">
-							<h5 class="blog__card-descp-title">Ремонт квартир и домов</h5>
-							<div class="blog__card-descp-line line-mini"></div>
-							<p class="blog__card-descp-text">
-								На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
-								Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
-							</p>
+						<div class="consultation__form-column">
+							<input type="text" name="" placeholder="Сообщение" class="consultation__form-input input">
+							<label for="check" class="consultation__form-checkbox checkbox">
+								<input id="check" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<span class="checkbox__text"><span> Я согласен на обработку персональных данных</span></span>
+							</label>
+							<button type="submit" class="consultation__form-btn btn">Получить консультацию</button>
 						</div>
-						<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
+					</form>
+				</div>
+			</section>
+
+			<section id="blog" class="blog section">
+				<div class="_container">
+					<h2 class="blog__title title">
+						Полезные материалы <br>
+						<span>БЛОГ</span>
+					</h2>
+
+					<div class="blog__inner">
+
+						<div class="blog__column">
+							<div class="blog__card">
+								<div class="blog__card-img">
+									<img src="img/blog/01.jpg" alt="">
+								</div>
+								<div class="blog__card-descp">
+									<h5 class="blog__card-descp-title">Ремонт квартир и домов</h5>
+									<div class="blog__card-descp-line line-mini"></div>
+									<p class="blog__card-descp-text">
+										На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
+										Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
+									</p>
+								</div>
+								<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
+							</div>
+						</div>
+
+						<div class="blog__column">
+							<div class="blog__card">
+								<div class="blog__card-img">
+									<img src="img/blog/02.jpg" alt="">
+								</div>
+								<div class="blog__card-descp">
+									<h5 class="blog__card-descp-title">Правильное освещение</h5>
+									<div class="blog__card-descp-line line-mini"></div>
+									<p class="blog__card-descp-text">
+										На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
+										Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
+									</p>
+								</div>
+								<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
+							</div>
+						</div>
+
+						<div class="blog__column">
+							<div class="blog__card">
+								<div class="blog__card-img">
+									<img src="img/blog/03.jpg" alt="">
+								</div>
+								<div class="blog__card-descp">
+									<h5 class="blog__card-descp-title">Гармоничный интерьер</h5>
+									<div class="blog__card-descp-line line-mini"></div>
+									<p class="blog__card-descp-text">
+										На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
+										Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
+									</p>
+								</div>
+								<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
+							</div>
+						</div>
+
+						<div class="blog__column">
+							<div class="blog__card">
+								<div class="blog__card-img">
+									<img src="img/blog/04.jpg" alt="">
+								</div>
+								<div class="blog__card-descp">
+									<h5 class="blog__card-descp-title">Интерьер и природа</h5>
+									<div class="blog__card-descp-line line-mini"></div>
+									<p class="blog__card-descp-text">
+										На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
+										Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
+									</p>
+								</div>
+								<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
+							</div>
+						</div>
+
 					</div>
+
 				</div>
+			</section>
 
-				<div class="blog__column">
-					<div class="blog__card">
-						<div class="blog__card-img">
-							<img src="img/blog/02.jpg" alt="">
-						</div>
-						<div class="blog__card-descp">
-							<h5 class="blog__card-descp-title">Правильное освещение</h5>
-							<div class="blog__card-descp-line line-mini"></div>
-							<p class="blog__card-descp-text">
-								На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
-								Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
-							</p>
-						</div>
-						<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
-					</div>
-				</div>
-
-				<div class="blog__column">
-					<div class="blog__card">
-						<div class="blog__card-img">
-							<img src="img/blog/03.jpg" alt="">
-						</div>
-						<div class="blog__card-descp">
-							<h5 class="blog__card-descp-title">Гармоничный интерьер</h5>
-							<div class="blog__card-descp-line line-mini"></div>
-							<p class="blog__card-descp-text">
-								На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
-								Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
-							</p>
-						</div>
-						<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
-					</div>
-				</div>
-
-				<div class="blog__column">
-					<div class="blog__card">
-						<div class="blog__card-img">
-							<img src="img/blog/04.jpg" alt="">
-						</div>
-						<div class="blog__card-descp">
-							<h5 class="blog__card-descp-title">Интерьер и природа</h5>
-							<div class="blog__card-descp-line line-mini"></div>
-							<p class="blog__card-descp-text">
-								На кухне установлена газовая плита и, согласно нормативам, кухню требовалось отделить от гостиной.
-								Авторы проекта предусмотрели между двумя помещениями откатную перегородку, а остальные
-							</p>
-						</div>
-						<a href="#" class="blog__card-btn btn btn_white">Подробнее</a>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</section>
-
-	</main>
-	<footer id="footer" class="footer">
+		</main>
+		<footer id="footer" class="footer">
 
 	<div class="footer__top">
 		<div class="_container">

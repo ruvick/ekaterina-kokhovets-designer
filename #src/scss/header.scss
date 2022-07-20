@@ -52,7 +52,7 @@
 
 .menu-list {
 	display: flex;
-	// justify-content: flex-end;
+	justify-content: flex-end;
 	flex-wrap: wrap;
 
 	a {
@@ -60,7 +60,7 @@
 		font-family: 'Lato', sans-serif;
 		font-size: 16px;
 		color: #fff;
-		padding: 5px 60px 5px 0;
+		padding: 2.5px 60px 2.5px 0;
 	}
 }
 
@@ -74,6 +74,10 @@
 		line-height: 21.6px;
 		color: #fff;
 	}
+}
+
+.header__contacts {
+	flex: 0 0 300px;
 }
 
 .header__soc-block {
@@ -155,7 +159,7 @@
 	left: 0px;
 	width: 100%;
 	height: 2px;
-	background-color: #FCA01F;
+	background-color: #cc870b;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-ms-transition: all 0.3s ease 0s;
@@ -208,8 +212,7 @@
 	width: 50%;
 	height: 100%;
 	padding: 35px 10px 0px 20px;
-	// background: rgba(0, 0, 0, 0.8);
-	background: #fff;
+	background-color: #3B3C3E;
 	box-shadow: 0px 3px 5px 0px black;
 	-webkit-transition: right 0.8s;
 	-o-transition: right 0.8s;
@@ -220,9 +223,9 @@
 
 .mob-menu li a {
 	display: inline-block;
-	font-size: 16px;
-	// color: #fff;
-	padding-bottom: 13px;
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 8px;
 }
 
 .mob-menu.active {
