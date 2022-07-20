@@ -28,6 +28,13 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "Ceremonioustwo";
+  src: url("../fonts/ceremonioustwo.eot");
+  src: local("☺"), url("../fonts/ceremonioustwo.woff") format("woff"), url("../fonts/ceremonioustwo.ttf") format("truetype"), url("../fonts/ceremonioustwo.svg") format("svg"), url("../fonts/ceremonioustwo.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
   font-family: "Lato";
   src: url("../fonts/Lato-Light.eot");
   src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg") format("svg");
@@ -192,12 +199,13 @@ body._lock {
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 98.32px;
   font-weight: 300;
   line-height: 119.9959316517%;
 }
 h1 span {
+  font-family: "Lato", sans-serif;
   font-size: 70px;
   line-height: 120%;
   color: #fff;
@@ -206,12 +214,13 @@ h1 span {
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 60px;
   font-weight: 300;
   line-height: 120%;
 }
 h2 span {
+  font-family: "Lato", sans-serif;
   font-size: 70px;
   font-weight: 100;
   line-height: 120%;
@@ -221,12 +230,13 @@ h2 span {
 }
 
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 120%;
 }
 h3 span {
+  font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 100;
   line-height: 120%;
@@ -236,21 +246,21 @@ h3 span {
 }
 
 h4 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 38px;
 }
 
 h5 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
 }
 
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Ceremonioustwo", sans-serif;
   font-size: 19px;
   font-weight: 500;
   line-height: 120%;
