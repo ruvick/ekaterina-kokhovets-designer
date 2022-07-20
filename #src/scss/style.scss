@@ -403,7 +403,7 @@ h6 {
 
 .card-objects__img {
 	position: relative;
-	height: 300px;
+	max-height: 300px;
 	overflow: hidden;
 }
 
@@ -413,7 +413,7 @@ h6 {
 
 .card-objects__descp {
 	flex: 1 1 auto;
-	padding: 6.5px 0;
+	padding: 6.5px;
 	background: #888E91;
 	transition: all 1.5s;
 }
@@ -513,7 +513,7 @@ h6 {
 
 .services__card-slider {
 	position: relative;
-	flex: 0 1 449px;
+	// flex: 0 1 449px;
 	max-width: 449px;
 	width: 100%;
 	max-height: 238px;
@@ -532,6 +532,10 @@ h6 {
 	bottom: 5%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+}
+
+.services__card-slider-slide {
+	width: 100% !important;
 }
 
 //========================================================================================================================================================
@@ -595,8 +599,15 @@ h6 {
 
 .reviews__card-slider {
 	flex: 0 0 290px;
-	width: 290px;
-	max-height: 416px;
+	max-width: 290px;
+	width: 100%;
+	// max-height: 416px;
+}
+
+.reviews__card-slider-slide,
+.reviews__card-slider-inner,
+.reviews__card-slider-inner .swiper-wrapper {
+	height: 100% !important;
 }
 
 //========================================================================================================================================================
@@ -691,13 +702,21 @@ h6 {
 //========================================================================================================================================================
 
 .consultation {
+	position: relative;
 	background-size: cover;
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-image: url('../img/consultation-form.jpg');
 }
 
+.consultation__title {
+	position: relative;
+	z-index: 5;
+}
+
 .consultation__form {
+	position: relative;
+	z-index: 5;
 	display: flex;
 	justify-content: space-around;
 	padding: 0 85px;
@@ -727,17 +746,21 @@ h6 {
 	margin-top: 33px;
 }
 
+.consultation__nuar_blk {
+	background-color: #00000035;
+}
+
 //========================================================================================================================================================
 
 .blog__inner {
 	display: flex;
-	margin: 0 -26px;
+	margin: 0 -10px;
 }
 
 .blog__column {
 	display: flex;
-	flex: 0 1 24.5%;
-	padding: 0 13px;
+	flex: 0 1 25%;
+	padding: 0 10px;
 }
 
 .blog__card {
@@ -848,6 +871,10 @@ h6 {
 .page-banner-house {
 	background-image: url('../img/banner-house.jpg');
 }
+
+//========================================================================================================================================================
+
+
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
