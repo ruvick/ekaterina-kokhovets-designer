@@ -130,6 +130,10 @@
 		flex: 0 1 33.333%;
 		padding-bottom: 10px;
 	}
+
+	.team__column {
+		padding-bottom: 20px;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -216,7 +220,7 @@
 		width: 100%;
 		padding: 5px 0;
 		background-color: #3B3C3E;
-		border-bottom: 1px solid #cc870b;
+		// border-bottom: 1px solid #cc870b;
 	}
 
 	.header__logo {
@@ -262,9 +266,11 @@
 	}
 
 	.header__popup-link_mob {
-		display: flex;
+		display: inline-flex;
+		font-size: 16px;
+		padding: 3.5px 18px;
 		margin-left: 0;
-		color: #cc870b;
+		margin-top: 10px;
 	}
 
 	.section {
@@ -404,11 +410,11 @@
 		margin-top: 10px;
 	}
 
-	.team__inner {
-		flex-wrap: nowrap;
-		width: auto;
-		overflow: auto;
-	}
+	// .team__inner {
+	// 	flex-wrap: nowrap;
+	// 	width: auto;
+	// 	overflow: auto;
+	// }
 
 	.team__card-name {
 		font-size: 16px;
@@ -429,6 +435,7 @@
 
 	.team__column {
 		padding: 0 10px;
+		padding-bottom: 25px;
 	}
 
 	.team__descp {
@@ -509,6 +516,15 @@
 	.blog__card-img {
 		min-height: 130px;
 		max-height: 130px;
+	}
+
+	.team__bg {
+		display: none;
+	}
+
+	.page-banner {
+		height: 100%;
+		padding: 90px 0;
 	}
 }
 
@@ -620,10 +636,6 @@
 	.popup__form-block {
 		flex: 0 1 100%;
 	}
-
-	.team__descp-text-block {
-		text-align: justify;
-	}
 }
 
 @media (max-width: 480px) {
@@ -684,7 +696,6 @@
 	}
 
 	.about__subtitle {
-		text-align: justify;
 		line-height: 1.3;
 		margin-bottom: 8px;
 	}
@@ -723,10 +734,61 @@
 	.blog__inner {
 		margin: 0;
 	}
-}
 
-@media (max-width: 414px) {
 	.blog__column {
 		flex: 0 1 100%;
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 25%;
+		margin: 15px 0;
+	}
+
+	.blog__card-img {
+		min-height: 200px;
+		max-height: 200px;
+	}
+
+	.header__popup-link_mob {
+		padding: 6px 18px;
+		width: 100%;
+	}
+
+	.popup__form-btn {
+		width: 100%;
+	}
+
+	.popup__form-block h2 {
+		margin-bottom: 10px;
+	}
+
+	.team__card-name {
+		font-size: 14px;
+	}
+
+	.team__card-speciality {
+		font-size: 12px;
+		line-height: 1;
+	}
+
+	.page-inner .team__column {
+		padding-bottom: 15px;
+	}
+}
+
+@media (max-width: 375px) {
+	.team__card-name {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 345px) {
+	.team__column {
+		padding: 0 3px;
+	}
+
+	.team__card-name {
+		font-size: 12px;
 	}
 }

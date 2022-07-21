@@ -126,10 +126,10 @@ let sliderBg = new Swiper('.slider-bg', {
 // Сюда пишем класс нашего слайдера и меняем переменную
 let servicesSl = new Swiper('.servicesSl', {
 	// effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 3000,
+	// 	disableOnInteraction: false,
+	// },
 
 	observer: true,
 	observeParents: true,
@@ -150,10 +150,10 @@ let servicesSl = new Swiper('.servicesSl', {
 		clickable: true,
 	},
 	// Arrows
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
+	// navigation: {
+	// 	nextEl: '.swiper-button-next',
+	// 	prevEl: '.swiper-button-prev',
+	// },
 	/*
 	breakpoints: {
 		320: {
@@ -190,10 +190,10 @@ let servicesSl = new Swiper('.servicesSl', {
 // Сюда пишем класс нашего слайдера и меняем переменную
 let reviewsSl = new Swiper('.reviewsSl', {
 	// effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 3000,
+	// 	disableOnInteraction: false,
+	// },
 
 	observer: true,
 	observeParents: true,
@@ -210,7 +210,7 @@ let reviewsSl = new Swiper('.reviewsSl', {
 	//lazy: true,
 	// Dotts
 	pagination: {
-		el: '.servicesSl-swiper-paggination',
+		el: '.reviewsSl-swiper-paggination',
 		clickable: true,
 	},
 	// Arrows
