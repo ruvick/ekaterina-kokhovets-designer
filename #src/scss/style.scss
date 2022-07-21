@@ -131,6 +131,7 @@ h1 {
 
 	span {
 		font-family: 'Lato', sans-serif;
+		font-weight: 300;
 		font-size: 70px;
 		line-height: 84 / 70 *100%;
 		color: #fff;
@@ -148,7 +149,7 @@ h2 {
 	span {
 		font-family: 'Lato', sans-serif;
 		font-size: 70px;
-		font-weight: 100;
+		font-weight: 300;
 		line-height: 84 / 70 *100%;
 		color: #1A1818;
 		margin-top: -25px;
@@ -157,7 +158,6 @@ h2 {
 }
 
 h3 {
-	font-family: 'Ceremonioustwo', sans-serif;
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 48 / 40 *100%;
@@ -174,21 +174,18 @@ h3 {
 }
 
 h4 {
-	// font-family: 'Ceremonioustwo', sans-serif;
 	font-size: 28px;
 	font-weight: 700;
 	line-height: 38px;
 }
 
 h5 {
-	// font-family: 'Ceremonioustwo', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 28.8 / 24 *100%;
 }
 
 h6 {
-	// font-family: 'Ceremonioustwo', sans-serif;
 	font-size: 19px;
 	font-weight: 500;
 	line-height: 22.8 / 19 *100%;
@@ -424,11 +421,13 @@ h6 {
 }
 
 .card-objects__descp-title {
+	font-family: 'Ceremonioustwo', sans-serif;
 	text-align: center;
 	color: #FFDDA8;
 
 	span {
 		color: #fff;
+		font-weight: 300;
 	}
 }
 
@@ -508,6 +507,7 @@ h6 {
 }
 
 .services__card-descp-text {
+	font-weight: 500;
 	line-height: 16.8px;
 }
 
@@ -560,11 +560,13 @@ h6 {
 }
 
 .reviews__card-descp {
+	font-weight: 500;
 	padding: 30px 35px 50px 53px;
 }
 
 .reviews__card-descp-name {
 	color: #fff;
+	font-weight: 500;
 	margin-bottom: 20px;
 }
 
@@ -593,6 +595,7 @@ h6 {
 }
 
 .reviews__card-descp-link {
+	font-weight: 500;
 	color: #fff;
 	text-decoration: underline;
 }
